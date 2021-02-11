@@ -16,14 +16,17 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
+//Typography styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     
 }
 
 
-
+//background gradient
 .navbar, .home-hero {
    background: #141e30;;  /* fallback for old browsers */
     background: -webkit-linear-gradient(left, #C141e30, #243b55);
@@ -48,12 +51,13 @@ h1, h2, h3 {
   padding-left: 25px;
 }
 
+//nav styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color: white
+  color: white;
   &:hover {
     color: white;
-    opacity: 75;
+    opacity: 0.75;
   }
 }
 
